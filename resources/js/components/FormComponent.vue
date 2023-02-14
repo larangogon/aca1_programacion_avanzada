@@ -1,7 +1,7 @@
 <template>
     <div class="container text-center py-5 mx-5">
         <div class="card shadow w-50 m-auto">
-            <form action="/orders/" method="post">
+            <form action="/events/" method="post">
                 <input type="hidden" name="_token" v-bind:value="token">
                 <div class="card-header">
                     <div class="card-title">Crear órden</div>
