@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\EventController;
+use App\Http\Controllers\FibonacciController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,5 +20,5 @@ Route::get('/', function () {
 });
 
 Route::resource('events', EventController::class)->only(['store', 'index']);
-
+Route::resource('fibonacci', FibonacciController::class)->only(['store', 'index']);
 
